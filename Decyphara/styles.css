@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.decyphara{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.navbar{
+    padding-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 15px 10px;
+}
+.menu ul li a{
+    color: darkorange;
+    font-family: arial;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.9s;
+}
+.Details{
+    padding-left: 50px;
+    font-family: 'Times New Roman';
+    color: white;
+    font-size: 30px;
+    padding-top: 10%;
+}
+.Details span{
+    font-size: 55px;
+    color: darkorange;
+    font-family: 'Lucida Sans';
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+.companylogo{
+    letter-spacing: 2px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: darkorange;
+}
+.companylogo b{
+    color: white;
+}
+
+/*.shadow{
+    text-shadow: 0px 0px 5px black, 0px 0px 15px darkorange;                   
+}*/
+.d-flex button{
+    margin-right: 30px;
+    background-color: darkorange;
+    color: white;
+    border: 0px;
+    outline: 0px;
+}
+.d-flex button:hover{
+    background-color: white;
+    color: darkorange;
+}
+.aboutme img{
+    margin: 10px;
+}
+.aboutme{
+    margin: 10px;
+}
